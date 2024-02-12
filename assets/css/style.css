@@ -341,9 +341,6 @@ header .navbar ul li a:hover {
   .home .content p span {
     font-size: 2.2rem;
   }
-  .home .content{
-        padding-top: 12rem;
-  }
 }
 /* hero media queries ends*/
 /* hero section end */
@@ -517,6 +514,10 @@ header .navbar ul li a:hover {
 }
 /* skills media queries starts*/
 @media screen and (max-width: 600px) {
+  
+  .home .content{
+        padding-top: 12rem;
+  }
   .skills .container {
     padding: 0;
     margin: 0;
@@ -1186,6 +1187,9 @@ form .button-area {
   }
 }
 @media (max-width: 450px) {
+  .about .row .image img {
+    margin: 0 auto;
+    width: 100%;}
   .footer .box-container .box {
     margin: 1.5rem;
   }
